@@ -1,6 +1,8 @@
 function [ NE ,F] = LaserFiringRate( par,Sp,L )
-%UNTITLED5 Summary of this function goes here
-%   Detailed explanation goes here
+%LaserFiringRate extracts firing rate from spikes during laserphase
+    % TMOHREN 2016-12-21
+    % Last update 5/2/2017
+    %------------------------------------
 
 fprintf('Calculating firing rate...  \n');
 tic 

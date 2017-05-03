@@ -1,3 +1,8 @@
+%------------------------------------
+% diagnostic fig, can be toggled off in main script
+% TMOHREN 2016-12-21
+% Last update 5/2/2017
+%------------------------------------
 f = figure(1);
 set(f,'name','Laser start & stop')
 f.Position = [300,200,700 600];

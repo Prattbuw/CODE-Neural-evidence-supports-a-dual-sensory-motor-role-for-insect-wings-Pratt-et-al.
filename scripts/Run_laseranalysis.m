@@ -1,10 +1,8 @@
-% New laser stim analysis
+%------------------------------------
+% laser stim analysis
 % TMOHREN 2016-12-21
-
-% to do: 
-%   make overview figure
-%   clean up code
-
+% Last update 5/2/2017
+%------------------------------------
 clc;clear all;close all
 
 %% Initialize, set up parameters
@@ -43,6 +41,4 @@ M       = FRanalyzeMean( par,NE );              % what is mean firing rate, and 
 
 run('Fig_MeanAnalysisMethod' )          % give overview of method
 run('Fig_MeanAnalysisAll' )             % show response of all data 
-
-
 

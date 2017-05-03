@@ -1,4 +1,9 @@
-  f = figure(4);
+%------------------------------------
+% diagnostic fig, can be toggled off in main script 
+% TMOHREN 2016-12-21
+% Last update 5/2/2017
+%------------------------------------
+f = figure(4);
             set(f,'name','Firing rate during laser')
             f.Position = [1200,100,500 900];
         clf(4)

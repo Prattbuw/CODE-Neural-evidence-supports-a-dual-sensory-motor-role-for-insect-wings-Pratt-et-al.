@@ -1,6 +1,8 @@
 function [ L] = LaserStim( par,Sp )
-%UNTITLED4 Summary of this function goes here
-%   Detailed explanation goes here
+%LaserStim determines when the laser is on
+    % TMOHREN 2016-12-21
+    % Last update 5/2/2017
+    %------------------------------------
 
 
 fprintf('Analyzing laser stimulus...  ');

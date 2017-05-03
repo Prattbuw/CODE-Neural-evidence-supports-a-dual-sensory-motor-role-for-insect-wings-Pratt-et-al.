@@ -1,3 +1,9 @@
+%------------------------------------
+% plot diagnostic figure during analysis, can be toggled off in main run
+% script
+% TMOHREN 2016-12-21
+% Last update 5/2/2017
+%------------------------------------
 f = figure(3);
 
 set(f,'name','Firing rate convolution with gaussian')

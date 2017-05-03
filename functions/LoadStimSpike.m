@@ -1,6 +1,8 @@
 function [ Sp,par ] = LoadStimSpike( par)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%LoadStimSpike loads data into a struct 
+    % TMOHREN 2016-12-21
+    % Last update 5/2/2017
+    %------------------------------------
 
 fprintf('Loading data...  \n');
 

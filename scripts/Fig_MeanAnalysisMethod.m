@@ -1,4 +1,8 @@
-
+%------------------------------------
+% Diagnostic figure
+% TMOHREN 2016-12-21
+% Last update 5/2/2017
+%------------------------------------
 j = 1;
 Pred = 1e4;
 Pvec = 1:Pred:par.N_last ;
